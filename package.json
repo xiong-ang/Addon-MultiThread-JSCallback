@@ -1,0 +1,25 @@
+{
+  "name": "addon-multithread-jscallback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/Release/callback",
+  "dependencies": {
+    "nan": "2.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiong-ang/Addon-MultiThread-JSCallback.git"
+  },
+  "author": "Barret",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/xiong-ang/Addon-MultiThread-JSCallback/issues"
+  },
+  "homepage": "https://github.com/xiong-ang/Addon-MultiThread-JSCallback#readme"
+}
